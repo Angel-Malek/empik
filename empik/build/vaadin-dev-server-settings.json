@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/angelmalek/Downloads/empik/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/angelmalek/Downloads/empik/frontend/generated/jar-resources",
+  "staticOutput": "build/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "build/classes/META-INF/VAADIN/webapp/../config/",
+  "frontendBundleOutput": "build/classes/META-INF/VAADIN/webapp/",
+  "devBundleOutput": "/Users/angelmalek/Downloads/empik/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/angelmalek/Downloads/empik/src/main/dev-bundle/config",
+  "jarResourcesFolder": "/Users/angelmalek/Downloads/empik/frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "/Users/angelmalek/Downloads/empik/build/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
