@@ -34,11 +34,12 @@ public class GitUserServiceImpl implements GitUserService {
         //checking if user is empty in db
         if (gitUser == null) {
             gitUser = new GitUser(); // Initialize gitUsers if it's null
+            gitUser.setLogin(login);
             gitUser.setRequestCount(0);
         }
 
         //filling up and saving gitUser
-        gitUser.setLogin(login);
+
         gitUser.setRequestCount(gitUser.getRequestCount() == null ? 1 : gitUser.getRequestCount() + 1);
         gitUserRepository.save(gitUser);
 
